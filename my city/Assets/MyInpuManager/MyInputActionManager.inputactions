@@ -1,0 +1,34 @@
+{
+    "name": "MyInputActionManager",
+    "maps": [
+        {
+            "name": "Pasue",
+            "id": "3de55403-6ad5-4b97-8025-d80225223a95",
+            "actions": [
+                {
+                    "name": "PausingInteraction",
+                    "type": "Button",
+                    "id": "c756eec1-cbb9-4bfe-b4fd-ead166966d7b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d37604ce-bda4-41d6-a9b2-c14b15080235",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PausingInteraction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
